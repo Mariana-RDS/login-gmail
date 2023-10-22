@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.branding{
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    width: 75px;
+    height: 24px;
+}
+
+.login-container{
+    display: flex;
+    padding: 45px;
+    padding-bottom: 20px;
+    width: 350px;
+    height: 400px; 
+    border: 1px solid #bebebe;
+    border-radius: 6px;
+    flex-direction: column;  
+}
+
+.header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#cab-1{
+    margin: 1px;
+    line-height: 10px;
+    font-size:x-large;
+}
+
+.input-mail{
+    display: flex;
+    flex-direction: column;
+}
+
+#entrada{
+    display: flex;
+    height: 50px;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+#link-1{
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 13.7px;
+    font-weight: 700;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.text{
+    display: flex;
+    font-size: 13.7px;
+    color: rgb(100 99 104);
+    padding-bottom: 20px;
+}
+
+#link-2{
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 700;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#button-1{
+    background-color: #ffffff;
+    border: #ffffff;
+    color: #1a73e8;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+}
+#button-1:hover{
+    background-color: #e3eefd;
+    color: #0e62d0;
+    
+}
+
+#button-2{
+    background-color: #1a73e8;
+    border: 3px solid #1a73e8;
+    border-radius: 5px;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#button-2:hover{
+    background-color: #0e62d0;
+    border: 3px solid #0e62d0;
+}
+
